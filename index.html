@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Thank You</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Outfit', sans-serif;
+      background: #eaf6ff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 20px;
+      min-height: 100vh;
+    }
+
+    .container {
+      background: #ffffff;
+      max-width: 900px;
+      width: 100%;
+      border-radius: 24px;
+      padding: 60px 40px;
+      box-shadow: 0 12px 35px rgba(0, 123, 255, 0.1);
+      text-align: center;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    .photo {
+      width: 260px;
+      height: 260px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 6px solid #cce8ff;
+      box-shadow: 0 10px 30px rgba(0, 123, 255, 0.15);
+      margin-bottom: 25px;
+    }
+
+    .coach-name {
+      font-size: 18px;
+      color: #0077cc;
+      font-weight: 600;
+      margin-bottom: 25px;
+    }
+
+    h1 {
+      font-size: 36px;
+      font-weight: 700;
+      color: #003366;
+      margin-bottom: 16px;
+    }
+
+    p {
+      font-size: 18px;
+      color: #444;
+      line-height: 1.6;
+      margin-bottom: 40px;
+    }
+
+    .btn {
+      display: inline-block;
+      background-color: #0077cc;
+      color: white;
+      padding: 14px 28px;
+      font-size: 16px;
+      border-radius: 12px;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      box-shadow: 0 8px 22px rgba(0, 123, 255, 0.25);
+    }
+
+    .btn:hover {
+      background-color: #005fa3;
+      transform: scale(1.04);
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(40px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @media (max-width: 768px) {
+      .photo {
+        width: 180px;
+        height: 180px;
+      }
+
+      h1 {
+        font-size: 28px;
+      }
+
+      p {
+        font-size: 16px;
+      }
+
+      .container {
+        padding: 40px 25px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <img src="images/sakshi_maam.png" alt="CA Sakshi Mahajan" class="photo" />
+    <div class="coach-name">CA Sakshi Mahajan  (Business Coach)</div>
+
+    <h1>Thank You for Booking Your Session !</h1>
+    <p>We appreciate your time and trust. <br>Looking forward to an impactful session that brings clarity and results.</p>
+
+    <a href="https://www.instagram.com/sakshimahajan0205/" class="btn" target="_blank">Follow on Instagram</a>
+  </div>
+
+</body>
+</html>
