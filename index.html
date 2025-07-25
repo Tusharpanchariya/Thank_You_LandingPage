@@ -11,22 +11,22 @@
       font-family: 'Outfit', sans-serif;
       background: #eaf6ff;
       display: flex;
-      align-items: flex-start; /* changed from center */
+      align-items: flex-start;
       justify-content: center;
-      padding: 20px 20px 40px; /* reduced top padding */
+      padding: 20px 20px 40px;
       min-height: 100vh;
     }
-.container {
-  margin-top: 40px; /* ✅ New line added */
-  background: #ffffff;
-  max-width: 900px;
-  width: 100%;
-  border-radius: 24px;
-  padding: 60px 40px;
-  box-shadow: 0 12px 35px rgba(0, 123, 255, 0.1);
-  text-align: center;
-  animation: fadeIn 1s ease-in-out;
-}
+    .container {
+      margin-top: 40px;
+      background: #ffffff;
+      max-width: 900px;
+      width: 100%;
+      border-radius: 24px;
+      padding: 60px 40px;
+      box-shadow: 0 12px 35px rgba(0, 123, 255, 0.1);
+      text-align: center;
+      animation: fadeIn 1s ease-in-out;
+    }
 
     .photo {
       width: 260px;
@@ -100,6 +100,26 @@
       }
     }
   </style>
+
+  <!-- Meta Pixel Code -->
+  <script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '1323418209580788');
+  fbq('track', 'PageView');
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none"
+         src="https://www.facebook.com/tr?id=1323418209580788&ev=PageView&noscript=1"/>
+  </noscript>
+  <!-- End Meta Pixel Code -->
+
 </head>
 <body>
 
